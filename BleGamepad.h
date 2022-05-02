@@ -11,8 +11,8 @@
 #include "NimBLECharacteristic.h"
 
 #define CONTROLLER_TYPE_JOYSTICK	0x04
-#define CONTROLLER_TYPE_GAMEPAD		0x05
-#define CONTROLLER_TYPE_MULTI_AXIS	0x08
+#define CONTROLLER_TYPE_GAMEPAD		0x08  //was 5
+#define CONTROLLER_TYPE_MULTI_AXIS	0x05  // was 8
 
 #define BUTTON_1      0x1
 #define BUTTON_2      0x2
